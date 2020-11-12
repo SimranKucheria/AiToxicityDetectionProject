@@ -7,7 +7,7 @@ sudo -H pip3 install matplotlib <br>
 <br>
 Training.ipynb trains the model and outputs model.h5 uses train.csv.zip and test.csv.zip. Was trained on kaggle so there maybe some discrepancies in adding the files.<br>
  <br>
-Pred.py uses model.h5 to predict the toxicity values for inputted sentence<br>
+Pred.py uses model.h5 to predict the toxicity values for the input sentence<br>
 <br>
 ### To run<br>
 streamlit run Pred.py<br>
